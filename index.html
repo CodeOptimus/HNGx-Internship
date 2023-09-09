@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Webpage</title>
+  </head>
+  <body>
+    <header class="my-name">
+      <h1 data-testid="slackUserName">Optimus Elikem</h1>
+    </header>
+    <main>
+      <img src="/images/I_SEE_THE_MOON.jpg" alt="Optimus Elikem" data-testid="slackDisplayImage"/>
+      <p data-testid="myTrack">Frontend Track</p>
+      <div class="timeline">
+        <h2 id="weekDay" data-testid="currentDayOfTheWeek"></h2>
+        <h2 id="currentTime" data-testid="currentUTCTime"></h2>
+      </div>
+      
+    </main>
+    <footer>
+      <div>
+        <a href="https://" data-testid="githubURL">Access Code</a>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
