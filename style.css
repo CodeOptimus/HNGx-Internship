@@ -80,3 +80,11 @@ footer a:hover {
   .timeline h2{
     font-size: 1.5em;
   }
+
+  main p {
+    font-size: 1.2em;
+  }
+
+  footer a {
+    padding: 20px 30px;
+  }
